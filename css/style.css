@@ -268,6 +268,22 @@ footer h2 { color: var(--gold); margin-bottom: 20px; }
 }
 .map-container iframe { width: 100%; height: 100%; border:0; }
 
+/* --- IKONY STOPKI --- */
+.contact-info svg {
+    width: 24px;
+    height: 24px;
+    color: var(--gold); /* Złoty! */
+    stroke-width: 1.5px; /* Cienkie linie (eleganckie) */
+    margin-right: 15px;
+    margin-bottom: -5px; /* Lekkie wyrównanie do tekstu */
+}
+
+.phone-link {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Odstęp między słuchawką a numerem */
+}
+
 .copyright {
     text-align: center;
     border-top: 1px solid #333;
@@ -443,4 +459,5 @@ footer h2 { color: var(--gold); margin-bottom: 20px; }
     .about-image { order: -1; }
     
     .footer-content { grid-template-columns: 1fr; text-align: center; }
+
 }
