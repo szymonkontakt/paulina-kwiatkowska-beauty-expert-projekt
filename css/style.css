@@ -255,7 +255,6 @@ footer h2 { color: var(--gold); margin-bottom: 20px; }
 .phone-link {
     display: flex; /* Żeby ikona i numer były w jednej linii */
     align-items: center; /* Wyrównanie w pionie */
-    justify-content: center; /* KLUCZOWE: Wyśrodkowanie w poziomie */
     gap: 15px; /* Odstęp między słuchawką a numerem */
     font-size: 2rem;
     color: var(--white);
